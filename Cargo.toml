@@ -50,7 +50,7 @@ tabwriter       = "1.2"
 tempfile        = "3.3.0"
 termcolor       = "1.1.2"
 zip             = "0.5.8"
-tokio = { version = "1.15.0", features = ["full"] }
+tokio = { version = "1.16.1", features = ["full"] }
 
 [dev-dependencies]
 assert_cmd = "2.0.2" # contains helpers make executing the main binary on integration tests easier.
