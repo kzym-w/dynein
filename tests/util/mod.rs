@@ -346,7 +346,7 @@ async fn setup_container(port: i32) -> Result<(), Box<dyn std::error::Error>> {
     let config = aws_sdk_dynamodb::config::Builder::from(
         &SdkConfig::builder()
             .region(Region::new("local"))
-            .behavior_version(BehaviorVersion::v2024_03_28())
+            .behavior_version(BehaviorVersion::v2025_01_17())
             .build(),
     )
     .endpoint_url(format!("http://localhost:{}", port))
